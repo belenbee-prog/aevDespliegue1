@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 /* ====== Estilo general ====== */
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background: #e9eef3;
+=======
+/* ====== Estilos generales ====== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+>>>>>>> estilos
     color: #333;
     margin: 0;
     padding: 40px;
@@ -12,6 +19,7 @@ body {
 
 /* ====== Título ====== */
 h1 {
+<<<<<<< HEAD
     font-size: 2rem;
     color: #34495e;
     margin-bottom: 20px;
@@ -28,21 +36,45 @@ p {
     text-align: center;
     margin-bottom: 15px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+=======
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+/* ====== Contenedores de información ====== */
+p {
+    background: #fff;
+    padding: 12px 18px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+>>>>>>> estilos
 }
 
 /* ====== Formulario ====== */
 form {
     background: #ffffff;
     padding: 20px;
+<<<<<<< HEAD
     width: 320px;
     border-radius: 4px;
     border-left: 5px solid #58d68d;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+=======
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 300px;
+>>>>>>> estilos
     text-align: center;
     margin-bottom: 20px;
 }
 
 label {
+<<<<<<< HEAD
     font-weight: 600;
     margin-bottom: 10px;
     display: block;
@@ -55,11 +87,26 @@ input[type="text"] {
     border: 1px solid #bbb;
     border-radius: 4px;
     text-align: center;
+=======
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 80px;
+    padding: 8px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #f3d5d5;
+    border-radius: 4px;
+>>>>>>> estilos
 }
 
 /* ====== Botón ====== */
 button {
     margin-top: 15px;
+<<<<<<< HEAD
     padding: 10px 22px;
     background: #5dade2;
     color: white;
@@ -67,10 +114,20 @@ button {
     border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
+=======
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+>>>>>>> estilos
     transition: background 0.2s ease;
 }
 
 button:hover {
+<<<<<<< HEAD
     background: #3498db;
 }
 
@@ -80,3 +137,14 @@ p:last-of-type {
     border-left-color: #aeb6bf;
     font-weight: bold;
 }
+=======
+    background: #2980b9;
+}
+
+/* ====== Lista de letras usadas ====== */
+p:last-of-type {
+    background: #d4e7eb;
+    font-weight: bold;
+}
+
+>>>>>>> estilos
