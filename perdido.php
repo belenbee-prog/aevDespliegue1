@@ -22,3 +22,7 @@ if (!isset($_SESSION['palabra'])) {
     
 </body>
 </html>
+
+<?php
+session_destroy()
+?>
